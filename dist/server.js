@@ -16,7 +16,7 @@ function responseError(res, message) {
     return res.status(404).json({ success: false, message, data: null });
 }
 app.get('/', (req, res) => {
-    res.send('True Farm Server');
+    res.send('True Farm Api Server');
 });
 app.get('/api/v1/products', (req, res) => {
     responseData(res, data_1.ProductsData);

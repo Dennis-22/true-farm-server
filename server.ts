@@ -17,7 +17,7 @@ function responseError(res: express.Response, message:string){
 }
 
 app.get('/', (req:Request, res:Response)=>{
-    res.send('True Farm Server')
+    res.send('True Farm Api Server')
 })
 
 app.get('/api/v1/products', (req:Request, res:Response)=>{

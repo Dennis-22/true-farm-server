@@ -123,7 +123,7 @@ const BenefitsData = [
     },
     {
         name: 'Pineapple',
-        productId: '1',
+        productId: '3',
         benefits: [
             'Loaded with nutrients.',
             'Contains disease-fighting antioxidants.',
